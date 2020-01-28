@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    overflow: hidden;
+    background:white;
+}
+
+.landing{
+    width: 33%;
+    position: fixed;
+    top: 10%;
+    bottom: 50%;
+    transform: translate(95%, 50%);
+    color: white;
+    text-align: center;
+    font-family: "Montserrat-Black";    
+}
+ button{
+    margin-top: 50px;
+    height: 60px;
+    width: 160px;
+} 
+button:hover {
+    border-color:white !important;
+
+    }
