@@ -21,3 +21,24 @@
 .projects{
     padding-top:4%;
 }
+.far {
+    margin-right: 10px;
+}
+#contact{
+    background: black;
+    padding: 4% 10%;
+    color: white;
+}
+a{
+    color: white;
+    margin-left: 10px;
+}
+a:hover{
+    color: grey;
+}
+.center {
+    text-align: center;
+    margin: auto;
+    background-color: white;
+  }
+  
