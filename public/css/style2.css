@@ -1,9 +1,10 @@
 html{
     scroll-behavior: smooth;
 }
+
 #info{
     background: navy;
-    margin-top: 40px;
+    margin-top: 70px;
     padding: 4% 10%;
     color: white;
 }
@@ -19,6 +20,7 @@ html{
 }
 .skills {
     margin-top: 40px;
+    text-align: center;
 }
 #work{
     padding: 2% 15%;
@@ -34,11 +36,11 @@ html{
     padding: 2% 10%;
     color: white;
 }
-a{
+.i4{
     color: orange;
     margin-left: 10px;
 }
-a:hover{
+.i4:hover{
     color:white;
 }
 .center {
@@ -65,8 +67,17 @@ h2{
     text-decoration-line:underline;
     margin-bottom: 40px;
 }
-.head{
+.head, .skillshead{
     
     font-family: "Montserrat-Black";
     color:orange;
+}
+hr{
+    background-color: orange;
+}
+a{
+    color: white ;
+}
+a:hover{
+    color:orange ;
 }

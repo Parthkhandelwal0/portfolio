@@ -11,28 +11,26 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
     <link rel="stylesheet" href="css/style2.css" />
 
-    <title>Document</title>
+    <title>Portfolio</title>
 </head>
 <body>
 <!-- navbar -->
     <nav class="navbar navbar-expand-lg  fixed-top navbar-light bg-light">
+      <a class="navbar-brand" href="/"><i class="fas fa-h-square fa-2x"></i></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
                   <div class="collapse navbar-collapse" id="navbarNav">    
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="/">Home</a>
+                    <a class="nav-link" href="#info">ABOUT</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#info">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#work">Projects</a>
+                    <a class="nav-link" href="#work">PROJECTS</a>
                 </li>
     
                 <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
+                        <a class="nav-link" href="#contact">CONTACT</a>
                     </li>        
             </ul>
         </div>
@@ -41,12 +39,15 @@
 <!-- about -->
 <section id="info">
      <center><h2>ABOUT</h2></center>
+
     <div class="container">
     <div class="row ">
         <div class="col-lg-4 col-sm-6"> 
             <div class="aboutme">
-                <div class="head"><h3>Who's this guy?</h3></div>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad laborum sed optio maxime accusantium? Cupiditate ut accusantium exercitationem. Tempore delectus consectetur enim, voluptates commodi dolores! Dolores amet perspiciatis deserunt corporis!
+                <div class="head"><h3>Who's this guy?</h3><hr></div>
+                hola!, I'm Parth Khandelwal and I'm a full-stack web developer currently living in Dwarka, New Delhi.
+                I try to make responsive and dynamic websites using html,css,javascript etc.
+                I,m currently a 2nd year engineering student USICT.
             </div>
         </div>
         <div class="col-lg-4 col-sm-6"> 
@@ -55,39 +56,39 @@
         <div class="col-lg-4 col-sm-6>
             <!-- skills -->
             <div class="skills">
-                <h4>SKILLS</h4>
+                <h4 class="skillshead">SKILLS<hr></h4>
                 <p>C and C++</p>
                     <div class="progress">
-                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width:80%;background-color: red;">80%</div>
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width:80%;background-color: orangered;">80%</div>
 
                     </div>
                     <p class="skill-name">HTML5</p>
                     <div class="progress">
-                        <div class="progress-bar progress-bar-striped progress-bar-animated " role="progressbar" style="width:80%;background-color: red;">80%</div>
+                        <div class="progress-bar progress-bar-striped progress-bar-animated " role="progressbar" style="width:80%;background-color: orangered;">80%</div>
                     </div>
                     <p class="skill-name">CSS</p>
                     <div class="progress">
-                        <div class="progress-bar progress-bar-striped progress-bar-animated " role="progressbar" style="width:60%;background-color: red;">60%</div>
+                        <div class="progress-bar progress-bar-striped progress-bar-animated " role="progressbar" style="width:80%;background-color: orangered;">80%</div>
                     </div>
                     <p class="skill-name">Bootstrap</p>
                     <div class="progress">
-                        <div class="progress-bar progress-bar-striped progress-bar-animated " role="progressbar" style="width:70%;background-color: red;">70%</div>
+                        <div class="progress-bar progress-bar-striped progress-bar-animated " role="progressbar" style="width:70%;background-color: orangered;">70%</div>
                     </div>
                     <p class="skill-name">Java Script</p>
                     <div class="progress">
-                        <div class="progress-bar progress-bar-striped progress-bar-animated " role="progressbar" style="width:60%;background-color: red;">60%</div>
+                        <div class="progress-bar progress-bar-striped progress-bar-animated " role="progressbar" style="width:65%;background-color: orangered;">65%</div>
                     </div>
                     <p class="skill-name">NodeJS</p>
                     <div class="progress">
-                        <div class="progress-bar progress-bar-striped progress-bar-animated " role="progressbar" style="width:70%;background-color: red;">70%</div>
+                        <div class="progress-bar progress-bar-striped progress-bar-animated " role="progressbar" style="width:50%;background-color: orangered;">60%</div>
                     </div>
                     <p class="skill-name">MongoDB</p>
                     <div class="progress">
-                        <div class="progress-bar progress-bar-striped progress-bar-animated " role="progressbar" style="width:60%;background-color: red;">60%</div>
+                        <div class="progress-bar progress-bar-striped progress-bar-animated " role="progressbar" style="width:50%;background-color: orangered;">50%</div>
                     </div>
                     <p class="skill-name">Python</p>
                     <div class="progress">
-                        <div class="progress-bar progress-bar-striped progress-bar-animated " role="progressbar" style="width:80%;background-color: red;">80%</div>
+                        <div class="progress-bar progress-bar-striped progress-bar-animated " role="progressbar" style="width:70%;background-color: orangered;">70%</div>
                     </div>
             </div>
         </div>
@@ -106,7 +107,7 @@
                     <img src="images/packgrow.png" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Pack-In</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <p class="card-text">created using flask, sqlalchemy, javascript,css,html it contains dynamic landing and home pages,a register/signin system</p>
                       <a href="https://github.com/Parthkhandelwal0/PackGrow" target="_blank" class="btn btn-primary">Source Code</a>
                     </div>
                   </div>
@@ -116,7 +117,7 @@
                     <img src="images/portfolio.png" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Portfolio</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <p class="card-text">created using javascript, NodeJS, Express.js, html,css it contains a landing page sketched by using p5.js </p>
                       <a href="https://github.com/Parthkhandelwal0/portfolio" target="_blank" class="btn btn-primary">Source Code</a>
                     </div>
                   </div>
@@ -126,7 +127,7 @@
                     <img src="images/speedtester.png" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Speed Tester</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <p class="card-text">a fun little project made by using javascript, html and css to test your typing speed.It keeps tabs on your score until you go wrong</p>
                       <a href="https://github.com/Parthkhandelwal0/SpeedTester" target="_blank" class="btn btn-primary">Source Code</a>
                     </div>
                   </div>
@@ -136,7 +137,7 @@
                     <img src="images/drumkit.png" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Drum-Kit</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <p class="card-text">a project made for the drummer in you, it plays the sound made by different instruments in a drum-kit.Tech used-javascript,html,css</p>
                       <a href="https://github.com/Parthkhandelwal0/Drum-Kit" target="_blank" class="btn btn-primary">Source Code</a>
                     </div>
                   </div>
@@ -148,22 +149,22 @@
 <section id="contact">
     <center class="text-c"><h2>GET IN TOUCH</h2></center>
     <center class="icons"><p class="text-grey i1"><i class="fa fa-home fa-fw tcolor "></i>New Delhi, India</p>
-        <p class="text-grey i2"><i class="fa fa-envelope fa-fw tcolor"></i>kparth2010@gmail.com</p >
-        <p class="text-grey i3"><i class="fa fa-phone fa-fw tcolor "></i>(91+) 9013489502</p>
+        <p class="text-grey i2"><i class="fa fa-envelope fa-fw tcolor"></i><a href="kparth2010@gmail.com">kparth2010@gmail.com</a></p >
+        <p class="text-grey i3"><i class="fa fa-phone fa-fw tcolor "></i><a href="tel:+91903489502">(91+) 9013489502</a></p>
         <div class="icons2">
-            <a href="https://twitter.com/cyborg_parth" target="_blank">
+            <a href="https://twitter.com/cyborg_parth" class="i4" target="_blank">
                 <i class="fab fa-twitter fa-3x"></i>
             </a>
-            <a href="https://www.facebook.com/parth.khandelwal.750" target="_blank">
+            <a href="https://www.facebook.com/parth.khandelwal.750" class="i4" target="_blank">
                 <i class="fab fa-facebook fa-3x"></i>
             </a>
-            <a href="https://www.linkedin.com/in/parth-khandelwal-3051941a0/" target="_blank">
+            <a href="https://www.linkedin.com/in/parth-khandelwal-3051941a0/" class="i4" target="_blank">
                 <i class="fab fa-linkedin fa-3x"></i>
             </a>
-            <a href="https://github.com/Parthkhandelwal0" target="_blank">
+            <a href="https://github.com/Parthkhandelwal0" class="i4" target="_blank">
                 <i class="fab fa-github fa-3x"></i>
             </a>
-            <a href="https://www.instagram.com/_parthkhandelwal_/" target="_blank">
+            <a href="https://www.instagram.com/_parthkhandelwal_/" class="i4" target="_blank">
                 <i class="fab fa-instagram fa-3x"></i>
             </a>
         </div>

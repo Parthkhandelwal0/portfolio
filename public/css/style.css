@@ -3,7 +3,9 @@ body{
     overflow: hidden;
     background:rgb(0,0,128);
 }
-
+span{
+    color: orange;
+}
 .landing{
     width: 33%;
     position: fixed;
