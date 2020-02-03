@@ -9,7 +9,7 @@ function setup() {
 }
 
 function draw() {
-	background(20);
+	background(0,0,128);
 	
 	particles.forEach((particle, idx) => {
 		particle.update();

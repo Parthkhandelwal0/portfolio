@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://unpkg.com/scrollreveal"></script>
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -15,10 +16,10 @@
 <body>
 <!-- navbar -->
     <nav class="navbar navbar-expand-lg  fixed-top navbar-light bg-light">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
-                  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">    
+                  <div class="collapse navbar-collapse" id="navbarNav">    
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
                     <a class="nav-link" href="/">Home</a>
@@ -42,49 +43,51 @@
      <center><h2>ABOUT</h2></center>
     <div class="container">
     <div class="row ">
-        <div class="col-4"> 
+        <div class="col-lg-4 col-sm-6"> 
             <div class="aboutme">
+                <div class="head"><h3>Who's this guy?</h3></div>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad laborum sed optio maxime accusantium? Cupiditate ut accusantium exercitationem. Tempore delectus consectetur enim, voluptates commodi dolores! Dolores amet perspiciatis deserunt corporis!
             </div>
         </div>
-        <div class="col-4"> 
+        <div class="col-lg-4 col-sm-6"> 
             <center><img class="pic" src="images/profile_pic.jpg" alt="profile pic"></center>
         </div>
-        <div class="col-4">
+        <div class="col-lg-4 col-sm-6>
             <!-- skills -->
             <div class="skills">
                 <h4>SKILLS</h4>
                 <p>C and C++</p>
                     <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width:80%;background-color: #009688;">80%</div>
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width:80%;background-color: red;">80%</div>
+
                     </div>
                     <p class="skill-name">HTML5</p>
                     <div class="progress">
-                        <div class="progress-bar  " role="progressbar" style="width:80%;background-color: #009688;">80%</div>
+                        <div class="progress-bar progress-bar-striped progress-bar-animated " role="progressbar" style="width:80%;background-color: red;">80%</div>
                     </div>
                     <p class="skill-name">CSS</p>
                     <div class="progress">
-                        <div class="progress-bar  " role="progressbar" style="width:60%;background-color: #009688;">60%</div>
+                        <div class="progress-bar progress-bar-striped progress-bar-animated " role="progressbar" style="width:60%;background-color: red;">60%</div>
                     </div>
                     <p class="skill-name">Bootstrap</p>
                     <div class="progress">
-                        <div class="progress-bar  " role="progressbar" style="width:70%;background-color: #009688;">70%</div>
+                        <div class="progress-bar progress-bar-striped progress-bar-animated " role="progressbar" style="width:70%;background-color: red;">70%</div>
                     </div>
                     <p class="skill-name">Java Script</p>
                     <div class="progress">
-                        <div class="progress-bar  " role="progressbar" style="width:60%;background-color: #009688;">60%</div>
+                        <div class="progress-bar progress-bar-striped progress-bar-animated " role="progressbar" style="width:60%;background-color: red;">60%</div>
                     </div>
                     <p class="skill-name">NodeJS</p>
                     <div class="progress">
-                        <div class="progress-bar  " role="progressbar" style="width:70%;background-color: #009688;">70%</div>
+                        <div class="progress-bar progress-bar-striped progress-bar-animated " role="progressbar" style="width:70%;background-color: red;">70%</div>
                     </div>
                     <p class="skill-name">MongoDB</p>
                     <div class="progress">
-                        <div class="progress-bar  " role="progressbar" style="width:60%;background-color: #009688;">60%</div>
+                        <div class="progress-bar progress-bar-striped progress-bar-animated " role="progressbar" style="width:60%;background-color: red;">60%</div>
                     </div>
                     <p class="skill-name">Python</p>
                     <div class="progress">
-                        <div class="progress-bar  " role="progressbar" style="width:80%;background-color: #009688;">80%</div>
+                        <div class="progress-bar progress-bar-striped progress-bar-animated " role="progressbar" style="width:80%;background-color: red;">80%</div>
                     </div>
             </div>
         </div>
@@ -98,33 +101,43 @@
     <center><h2>PROJECTS</h2></center>
     <div class="container projects">
         <div class="row">
-            <div class="col-4">
-                <div class="card" style="width: 18rem;">
+            <div class="col-lg-3 col-sm-6">
+                <div class="card c0" style="width: 18rem;">
                     <img src="images/packgrow.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
+                      <h5 class="card-title">Pack-In</h5>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                      <a href="https://github.com/Parthkhandelwal0/PackGrow" target="_blank" class="btn btn-primary">Source Code</a>
                     </div>
                   </div>
             </div>
-            <div class="col-4">
-                <div class="card" style="width: 18rem;">
+            <div class="col-lg-3 col-sm-6">
+                <div class="card c1" style="width: 18rem;">
+                    <img src="images/portfolio.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Portfolio</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="https://github.com/Parthkhandelwal0/portfolio" target="_blank" class="btn btn-primary">Source Code</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="card c2" style="width: 18rem;">
                     <img src="images/speedtester.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
+                      <h5 class="card-title">Speed Tester</h5>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                      <a href="https://github.com/Parthkhandelwal0/SpeedTester" target="_blank" class="btn btn-primary">Source Code</a>
                     </div>
                   </div>
             </div>
-            <div class="col-4">
-                <div class="card" style="width: 18rem;">
+            <div class="col-lg-3 col-sm-6">
+                <div class="card c3" style="width: 18rem;">
                     <img src="images/drumkit.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
+                      <h5 class="card-title">Drum-Kit</h5>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                      <a href="https://github.com/Parthkhandelwal0/Drum-Kit" target="_blank" class="btn btn-primary">Source Code</a>
                     </div>
                   </div>
             </div>
@@ -133,31 +146,112 @@
 </section>
 <!-- Contact -->
 <section id="contact">
-    <center><h2>GET IN TOUCH</h2></center>
-    <center><p class="text-grey"><i class="fa fa-home fa-fw tcolor "></i>New Delhi, India</p>
-        <p class="text-grey"><i class="fa fa-envelope fa-fw tcolor"></i>kparth2010@gmail.com</p >
-        <p class="text-grey"><i class="fa fa-phone fa-fw tcolor "></i>9013489502</p>
-        <div class="icons">
-            <a href="#">
+    <center class="text-c"><h2>GET IN TOUCH</h2></center>
+    <center class="icons"><p class="text-grey i1"><i class="fa fa-home fa-fw tcolor "></i>New Delhi, India</p>
+        <p class="text-grey i2"><i class="fa fa-envelope fa-fw tcolor"></i>kparth2010@gmail.com</p >
+        <p class="text-grey i3"><i class="fa fa-phone fa-fw tcolor "></i>(91+) 9013489502</p>
+        <div class="icons2">
+            <a href="https://twitter.com/cyborg_parth" target="_blank">
                 <i class="fab fa-twitter fa-3x"></i>
             </a>
-            <a href="#">
+            <a href="https://www.facebook.com/parth.khandelwal.750" target="_blank">
                 <i class="fab fa-facebook fa-3x"></i>
             </a>
-            <a href="#">
+            <a href="https://www.linkedin.com/in/parth-khandelwal-3051941a0/" target="_blank">
                 <i class="fab fa-linkedin fa-3x"></i>
             </a>
-            <a href="#">
+            <a href="https://github.com/Parthkhandelwal0" target="_blank">
                 <i class="fab fa-github fa-3x"></i>
             </a>
-            <a href="#">
+            <a href="https://www.instagram.com/_parthkhandelwal_/" target="_blank">
                 <i class="fab fa-instagram fa-3x"></i>
             </a>
         </div>
     </center>
 </section>
+<!-- Footer -->
 <footer class="center bg-light">
     <p>Parth Khandelwal &copy; 2020</p>
   </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <!-- scrollReveal -->
+  <script>
+    window.sr = ScrollReveal();
+    sr.reveal('.navbar', {
+      duration: 2000,
+      origin: 'top'
+    });
+    sr.reveal('.aboutme', {
+    duration: 2000,
+    origin: 'left',
+    distance: '200px'
+  });
+  sr.reveal('.pic', {
+    duration: 2000,
+    origin: 'top',
+    distance: '200px'
+  });
+  sr.reveal('.skills', {
+    duration: 2000,
+    origin: 'right',
+    distance: '200px'
+  });
+  sr.reveal('.c1', {
+    duration: 2000,
+    origin: 'left',
+    distance: '200px',
+    viewFactor: 0.5
+  });
+  sr.reveal('.c2', {
+    duration: 2000,
+    origin: 'bottom',
+    distance: '200px',
+    viewFactor: 0.5
+  });
+  sr.reveal('.c3', {
+    duration: 2000,
+    origin: 'right',
+    distance: '200px',
+    viewFactor: 0.5
+  });
+  sr.reveal('.c3', {
+    duration: 2000,
+    origin: 'right',
+    distance: '200px',
+    viewFactor: 0.5
+  });
+  sr.reveal('.c0', {
+    duration: 2000,
+    origin: 'top',
+    distance: '200px',
+    viewFactor: 0.5
+  });
+  sr.reveal('.i1', {
+    duration: 2000,
+    origin: 'left',
+    distance: '200px',
+    viewFactor: 0.5
+  });
+  sr.reveal('.i2', {
+    duration: 2000,
+    origin: 'right',
+    distance: '200px',
+    viewFactor: 0.5
+  });
+  sr.reveal('.i3', {
+    duration: 2000,
+    origin: 'left',
+    distance: '200px',
+    viewFactor: 0.5
+  });
+  sr.reveal('.icons2', {
+    duration: 2000,
+    origin: 'bottom',
+    distance: '200px',
+    viewFactor: 0.5
+  });
+  </script>
 </body>
 </html>
