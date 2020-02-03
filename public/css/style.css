@@ -7,10 +7,14 @@ span{
     color: orange;
 }
 .landing{
-  margin: 0 auto;
-  max-width: 700px;
-  /* height: 2000px; */
-  color: #ccc;
+    width: 33%;
+    position: fixed;
+    top: 10%;
+    bottom: 50%;
+    transform: translate(90%, 50%);
+    color: white;
+    text-align: center;
+    font-family: "Montserrat-Black";    
 }
  button{
     margin-top: 50px;
