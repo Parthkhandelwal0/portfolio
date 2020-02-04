@@ -1,6 +1,9 @@
 html{
     scroll-behavior: smooth;
 }
+.navbar{
+    color:black;
+}
 
 #resume{
     color: orange;
@@ -14,6 +17,8 @@ html{
 .aboutme{
     margin-top: 40px;
     text-align: center;
+    font-family: "Montserrat-Black";
+    font-size: large;
 }
 .pic {
     margin-top: 40px;
@@ -27,6 +32,8 @@ html{
 }
 #work{
     padding: 2% 15%;
+    font-family: "Montserrat-Black";
+    font-size: medium;
 }
 .projects{
     padding-top:4%;
@@ -38,6 +45,8 @@ html{
     background:navy;
     padding: 2% 10%;
     color: white;
+    font-family: "Montserrat-Black";
+    font-size: large;
 }
 .i4{
     color: orange;
