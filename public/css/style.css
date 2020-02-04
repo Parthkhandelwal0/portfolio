@@ -16,20 +16,27 @@ span{
     text-align: center;
     font-family: "Montserrat-Black";    
 }
- button{
+.landing button{
     margin-top: 50px;
     height: 60px;
     width: 160px;
+    opacity: 1 !important;
 } 
-button:hover {
+.landing button:hover {
     border-color:white !important;
 }
 
-@media (max-width: 600px ) {
+@media (max-width: 500px ) {
 
     .landing {
-        right: 350px !important;
+        right: 21.5rem !important;
         width: 80% !important;
+    }
+
+    .landing button {
+        width: 140px;
+        height: 60px;
+        opacity: 1;
     }
 
 }
