@@ -20,7 +20,7 @@ span{
     margin-top: 50px;
     height: 60px;
     width: 160px;
-    opacity: 1 !important;
+    /* opacity: 1 !important; */
 } 
 .landing button:hover {
     border-color:white !important;
@@ -36,7 +36,7 @@ span{
     .landing button {
         width: 140px;
         height: 60px;
-        opacity: 1;
+        /* opacity: 1; */
     }
 
 }
