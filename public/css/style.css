@@ -23,5 +23,13 @@ span{
 } 
 button:hover {
     border-color:white !important;
+}
 
+@media (max-width: 600px ) {
+
+    .landing {
+        right: 350px !important;
+        width: 80% !important;
     }
+
+}
