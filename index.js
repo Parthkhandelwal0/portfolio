@@ -14,6 +14,6 @@ app.get("/about", function(req,res){
     res.sendFile(__dirname +"/index2.html");
 })
 
-app.listen(process.env.PORT || 3000, function(){
+app.listen(process.env.PORT || 4000, function(){
     console.log("server started");
 });
